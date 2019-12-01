@@ -1,5 +1,6 @@
 #!/bin/bash
 
+# TODO: Enable xz/7z compression
 OUTPUT="$(echo $1 | sed -e 's/\ /_/g' | sed -e 's/\///g').tar.bz2"
 echo "Output to: $OUTPUT"
 BASENAME="$(basename $OUTPUT)"
