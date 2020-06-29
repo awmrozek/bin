@@ -1,0 +1,27 @@
+amr@a3:~/bin$ [Kamr@a3:~/bin$ exit
+amr@a3:~/bin$ [Kamr@a3:~/bin$ ls
+MathKernel              autogit.sh           garbage.sh   restore_perm.sh         screenlog.4
+Mathematica             autostart.sh         leases.py    restore_perm_single.sh  synergy_client.sh
+WolframKernel           autostart_inside.sh  math         screenlog.0             wolfram
+all2mp3.sh              compiletexinside.sh  mathematica  screenlog.1             yt2mp3.sh
+allfriendlyfilename.sh  cron_hourlytasks.sh  mcc          screenlog.2
+archive.sh              friendlyfilename.sh  mount.sh     screenlog.3
+amr@a3:~/bin$ cat compiletexinside.sh 
+#!/bin/bash
+
+# compile tex file from ~/public_html/work/cubSpline1.tex
+
+cd ~/public_html/work
+make
+amr@a3:~/bin$ vim autostart_inside.sh n 
+[?1000h[?1049h[?1h=[1;33r[34l[34h[?25h[23m[24m[0m[H[J[?25l[33;1H"autostart_inside.sh" 8L, 81C[1;1H[33m  1 [0m[34m#!/bin/bash[0m
+[33m  2 
+  3 while true; do
+  4 [0m    date
+[33m  5 [0m    [33msleep[0m [31m1[0m[33m;
+  6 
+  7 [0m    /home/amr/compiletexinside.sh
+[33m  8 done[0m
+[1m[34m~                                                                                                                      [10;1H~                                                                                                                      [11;1H~                                                                                                                      [12;1H~                                                                                                                      [13;1H~                                                                                                                      [14;1H~                                                                                                                      [15;1H~                                                                                                                      [16;1H~                                                                                                                      [17;1H~                                                                                                                      [18;1H~                                                                                                                      [19;1H~                                                                                                                      [20;1H~                                                                                                                      [21;1H~                                                                                                                      [22;1H~                                                                                                                      [23;1H~                                                                                                                      [24;1H~                                                                                                                      [25;1H~                                                                                                                      [26;1H~                                                                                                                      [27;1H~                                                                                                                      [28;1H~                                                                                                                      [29;1H~                                                                                                                      [30;1H~                                                                                                                      [31;1H~                                                                                                                      [0m[32;1H[1m[7mautostart_inside.sh F5 F6 F7 = Prev Next New Document                                                                  [1;5H[34h[?25h[2;5H[3;5H[4;8H[5;8H[6;5H[7;8H[8;5H[1C[7;8H[0m /home/amr/[?25l[33;1H[1m-- INSERT --[0m[33;13H[K[7;19H[34h[?25h[?25lbcompiletexinside.sh[7;20H[34h[?25h[?25licompiletexinside.sh[7;21H[34h[?25h[?25lncompiletexinside.sh[7;22H[34h[?25h[?25l/compiletexinside.sh[7;23H[34h[?25h[33;1H[K[?25l[7;22H[34h[?25h[?25l[33;1H:[34h[?25hwq[?25l[?1000l"autostart_inside.sh" 8L, 85C written
+[?1l>[34h[?25h[?1049lamr@a3:~/bin$ exit
+amr@a3:~/bin$ [Kamr@a3:~/bin$ exit
